@@ -8,6 +8,6 @@ let app = express();
 app.use(cors);
 app.use(bodyParser.json());
 
-require('./api/src/routes')(app);
+require('./src/routes')(app);
 
 app.listen(8080);

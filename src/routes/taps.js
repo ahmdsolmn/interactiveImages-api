@@ -1,3 +1,5 @@
+'use strict';
+
 let tapsModel = require('../models/taps');
 
 module.exports = app => {

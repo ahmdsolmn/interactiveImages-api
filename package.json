@@ -1,0 +1,19 @@
+{
+  "name": "interactive-images-api",
+  "version": "1.0.0",
+  "description": "backend api for interactiveImages repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmdsolmn/interactiveImages-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmdsolmn/interactiveImages-api/issues"
+  },
+  "homepage": "https://github.com/ahmdsolmn/interactiveImages-api#readme"
+}

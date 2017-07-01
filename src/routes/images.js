@@ -8,7 +8,7 @@ module.exports = app => {
             .then(image => { 
                 return res.send({
                     ok: true,
-                    data: IMAGES[req.query.image_id],
+                    data: image,
                 });
             })
             .catch(err => {

@@ -24,7 +24,7 @@ module.exports = {
                 response.Current = TAPS[imageId][userId];
             }
 
-            return response;
+            return Promise.resolve(response);
         }
     },
 

@@ -12,10 +12,5 @@ module.exports = {
         } else {
             return Promise.resolve(IMAGES[imageId]);
         }
-    }
-
-    // optional
-    // app.get('/images.set', (req, res) => {
-        
-    // });
+    },
 }

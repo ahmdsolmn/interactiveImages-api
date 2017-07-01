@@ -1,6 +1,6 @@
 'use strict';
 
-let imagesModel = require('../models/image');
+let imagesModel = require('../models/images');
 
 module.exports = app => {
     app.get('/images.get', (req, res) => {

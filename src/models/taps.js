@@ -17,7 +17,11 @@ module.exports = {
             return Promise.reject('image_not_found');
         } else {
             let response = {
-                All: _.omit(TAPS[imageId], userId),
+                All: _.chain(TAPS[imageId])
+                    .omit(userId)
+                    .map(tap => tap)
+                    // .join(',')
+                    .value(),
             };
 
             if(undefined !== TAPS[imageId][userId]) {
